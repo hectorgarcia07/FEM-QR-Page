@@ -21,10 +21,9 @@ body {
 }
 
 .container {
-  max-width: 400px;
+  max-width: 320px;
   margin: 0 auto;
   border-radius: 25px;
-  width: 90%;
   background-color: white;
 }
 
@@ -33,27 +32,28 @@ body {
 }
 
 .qr-img-contntainer {
+  margin-bottom: 1rem;
 }
 
 img {
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
+  display: block;
 }
 
 .qr-description-container {
-  max-width: 340px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .qr-header {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  font-size: clamp(1rem, 7vw, 1.563rem);
+  font-size: 1.4rem;
 }
 
 .qr-description {
   color: hsl(220, 15%, 55%);
-  font-weight: 400;
-  font-size: 0.938rem;
+  font-size: 1rem;
 }
